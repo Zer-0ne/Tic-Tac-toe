@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0%;
+    background-color: black;
+    color: red;
+}.body_container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 120vh;
+    align-items: center;
+}.body_container .content{
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    top: 8vh;
+    flex-direction: column;
+}.body_container .content .heading{
+    font-size: 2.5vw;
+    position: absolute;
+    top: 0;
+    box-shadow: 0px 0px 15px red;
+    border-radius: 10px;
+    padding: 0px 50px;    
+}.heading h2{
+    /* color: black; */
+    margin: 0;
+}.body_container .content .table{
+    position: absolute;
+
+}.body_container .content table{
+    padding: 10px;
+}.body_container .content tr button{
+    padding: 50px 65px;
+    margin: 5px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0px 0px 5px 1px red;
+    transition: 1s ease;
+}.body_container .content td{
+    margin: 0px;
+}.body_container .content button:hover{
+    box-shadow: 0px 0px 0px 0px red;
+    animation: mymove 0.1s infinite;
+    transform: scale(1.5); 
+
+}.body_container .content button:active{
+    transform: scale(1);
+}@keyframes mymove {
+    0% {
+        box-shadow: 2px 0px 1px aqua, -2px 0px 1px red,0px -2px 1px blue,0px 2px 1px green;
+        transition: all 3s; 
+    }
+    25% {
+        box-shadow: 0px 1px 1px aqua, 0px -2px 1px red,0px -2px 1px blue,0px 2px 1px green;
+        transition: all 3s; 
+    }
+    50% {
+        box-shadow: -2px 0px 1px aqua, 2px 0px 1px red,0px -2px 1px blue,0px 2px 1px green;
+        transition: all 3s; 
+    }
+    75% {
+        box-shadow: 0px -1px 1px aqua, 0px 2px 1px red,0px -2px 1px blue,0px 2px 1px green;   
+        transition: all 3s; 
+    }
+    100% {
+        box-shadow: 2px 0px 1px aqua, -2px 0px 1px red,0px -2px 1px blue,0px 2px 1px green;   
+        transition: all 3s; 
+    }
+}.body_container .content tr{
+    display: flex;
+}.body_container .content .footer{
+    transition: all 1s ease;
+    display: none;
+    bottom: 0;
+    font-size: 1.5vw;
+    position: absolute;
+    /* top: 0; */
+    box-shadow: 0px 0px 15px green;
+    border-radius: 10px;
+    padding: 0px 50px;
+
+}.body_container .content .reset {
+
+    display: flex;
+    position: absolute;
+    bottom: 118px;
+}.reset button{
+    padding: 5px 10px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 9px red;
+    border-radius: 8px;
+    transition: all 3s; 
+
+}
