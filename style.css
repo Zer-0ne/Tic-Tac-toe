@@ -76,11 +76,10 @@
 }.body_container .content .footer{
     transition: all 1s ease;
     display: none;
-    top: 20%;
     font-size: 1.5vw;
     box-shadow: 0px 0px 15px green;
     border-radius: 10px;
-    padding: 0px 50px;
+    padding: 7px 50px;
 
 }.body_container .content .reset {
 
