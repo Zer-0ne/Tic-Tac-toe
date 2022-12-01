@@ -13,7 +13,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 50vw;
     top: 8vh;
     flex-direction: column;
