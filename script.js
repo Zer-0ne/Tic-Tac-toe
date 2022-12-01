@@ -1,5 +1,5 @@
 let turn = 'X'
-let tie = 0
+let tie = 9
 const changeTurn = ()=>{
     return turn ==='X'?'0':'X'
     
@@ -56,6 +56,7 @@ Array.from(boxes).forEach(element=>{
     })
 })
 reset.addEventListener('click',()=>{
+    tie=9
     let boxtexts = document.querySelectorAll('.boxtext')
     let footer_text_ = document.querySelector('.footer')
     Array.from(boxtexts).forEach(element_=>{
