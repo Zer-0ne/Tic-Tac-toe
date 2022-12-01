@@ -77,7 +77,7 @@
 }.body_container .content .footer{
     transition: all 1s ease;
     display: none;
-    bottom: 20%;
+    bottom: 10%;
     font-size: 1.5vw;
     position: absolute;
     /* top: 0; */
