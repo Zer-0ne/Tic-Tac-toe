@@ -7,10 +7,9 @@
     position: relative;
     display: flex;
     justify-content: center;
-    height: 120vh;
+    height: 100vh;
     align-items: center;
 }.body_container .content{
-    position: absolute;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -20,16 +19,16 @@
     flex-direction: column;
 }.body_container .content .heading{
     font-size: 2.5vw;
-    position: absolute;
-    top: 0;
     box-shadow: 0px 0px 15px red;
     border-radius: 10px;
+    margin: 0 0 10vh 0vh
     padding: 0px 50px;    
 }.heading h2{
     /* color: black; */
     margin: 0;
 }.body_container .content .table{
-    position: absolute;
+    position: static;
+    margin: 0 0 10vh 0vh
 
 }.body_container .content table{
     padding: 10px;
@@ -79,8 +78,6 @@
     display: none;
     top: 20%;
     font-size: 1.5vw;
-    position: absolute;
-    /* top: 0; */
     box-shadow: 0px 0px 15px green;
     border-radius: 10px;
     padding: 0px 50px;
