@@ -27,7 +27,7 @@
     /* color: black; */
     margin: 0;
 }.body_container .content .table{
-    position: static;
+    position: relative;
     margin: 0 0 10vh 0vh;
 
 }.body_container .content table{
